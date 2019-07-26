@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "baseUrl": "..",
+    "module": "es6",
+    "outDir": "../dist/",
+    "moduleResolution": "node",
+    "types": ["@citizenfx/server","@types/node"],
+    "paths": {
+      "@/*": [
+        "server/src/*"
+      ]
+    },
+    "lib": [
+      "es2017"
+    ]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "tests/**/*.ts",
+    "tests/**/*.tsx"
+  ]
+}

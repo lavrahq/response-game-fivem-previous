@@ -1,0 +1,23 @@
+{
+  "name": "response-game-fivem",
+  "version": "0.0.1",
+  "description": "FiveM Framework for Response",
+  "repository": "https://github.com/lavrahq/response-game-fivem",
+  "author": "Lavra Team",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build dev": "webpack --config client.config.js && webpack --config server.config.js",
+    "build prod": "webpack --config client.config.js && webpack --config server.config.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@citizenfx/client": "^1.0.1429-1",
+    "@citizenfx/server": "^1.0.1429-1",
+    "@types/node": "^12.6.8",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.38.0",
+    "webpack-cli": "^3.3.6"
+  }
+}
